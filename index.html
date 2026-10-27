@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>William McCartney | Portfolio</title>
+  <meta name="description" content="William McCartney is a Computer Science student at Cleveland State University and a full-stack developer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="logo" href="#top">WM</a>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero container">
+      <p class="eyebrow">Hi, I'm</p>
+      <h1>William McCartney</h1>
+      <p class="lead">
+        Full-stack developer and Computer Science student at <strong>Cleveland State University</strong>.
+        I build web apps, data dashboards, and hackathon projects, and I've won the CSU Hackathon twice.
+      </p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#projects">See my work</a>
+        <a class="btn" href="https://github.com/WJMcCartney" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="mailto:w.j.mccartney2002@gmail.com">Email me</a>
+      </div>
+      <ul class="stats">
+        <li><span>2×</span>CSU Hackathon winner</li>
+        <li><span>Dec 2026</span>B.S. Computer Science, Math minor</li>
+        <li><span>3+ yrs</span>building for the web</li>
+      </ul>
+    </section>
+
+    <!-- Projects (rendered from projects.json) -->
+    <section id="projects" class="section container">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p>Things I've built. Filter by technology.</p>
+      </div>
+      <div id="filters" class="filters" role="toolbar" aria-label="Filter projects by tag"></div>
+      <div id="project-grid" class="grid">
+        <p class="muted">Loading projects…</p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section container">
+      <div class="section-head">
+        <h2>Skills</h2>
+        <p>Tools I work with day to day.</p>
+      </div>
+      <div class="skill-groups">
+        <div class="card">
+          <h3>Frontend</h3>
+          <ul class="chips">
+            <li>React</li><li>Material UI</li><li>HTML</li><li>CSS</li>
+            <li>JavaScript</li><li>Node.js</li><li>Three.js</li><li>Figma</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Backend &amp; Data</h3>
+          <ul class="chips">
+            <li>Python</li><li>Flask</li><li>Java</li><li>SQL</li><li>SQLite</li>
+            <li>Firebase</li><li>Google Cloud</li><li>.NET</li><li>Google Apps Script</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Other</h3>
+          <ul class="chips">
+            <li>Solidity</li><li>Git &amp; GitHub</li><li>GitHub Actions</li>
+            <li>Local LLMs</li><li>Data acquisition</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section container">
+      <div class="section-head">
+        <h2>Experience</h2>
+        <p>Where I've put those skills to work.</p>
+      </div>
+
+      <ol class="timeline">
+        <li>
+          <div class="when">Sept 2023 – Present</div>
+          <div class="what">
+            <h3>Project Lead, Remote Data Acquisition &amp; Dashboard</h3>
+            <p class="org">CSU Society of Automotive Engineers</p>
+            <ul>
+              <li>Lead development of a data acquisition system that addresses recurring issues on the team's competition vehicle.</li>
+              <li>Built a dashboard the team uses to spot failure points before parts break, improving safety and efficiency.</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="when">Summer 2022</div>
+          <div class="what">
+            <h3>Full Stack Web Development Intern</h3>
+            <p class="org">LGTM.eth</p>
+            <ul>
+              <li>Built websites with React and MUI on the frontend and Firebase and Google Cloud on the backend.</li>
+              <li>Wrote Solidity contracts and connected them to the UI, wiring a vault and transactions to buttons.</li>
+              <li>Used GitHub for version control and GitHub Actions for automated testing.</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="when">July 2024 – Present</div>
+          <div class="what">
+            <h3>Field Technician</h3>
+            <p class="org">OneSparq</p>
+            <ul>
+              <li>Prepare and configure iPads, MacBooks, and Windows laptops for students and faculty across the Cleveland Metropolitan School District.</li>
+              <li>Handle device deployment and troubleshooting so classrooms keep running.</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="when">July 2024 – Present</div>
+          <div class="what">
+            <h3>Executive Board Member, Director of Nationals</h3>
+            <p class="org">National Collegiate Dodgeball Association</p>
+            <ul>
+              <li>Coordinated College Dodgeball Nationals at CSU, acting as the link between the NCDA and university officials for logistics, team communications, and scheduling.</li>
+              <li>Ran event operations: merchandise, staff delegation, and setup and teardown.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+
+      <div class="two-col">
+        <div class="card">
+          <h3>Highlights</h3>
+          <ul class="plain">
+            <li><strong>1st place</strong> at the 2023 and 2024 CSU Hackathons</li>
+            <li><strong>ClePY</strong>: working with LLMs in Python and locally hosted models</li>
+            <li>Building websites for clients and friends</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Other experience</h3>
+          <ul class="plain">
+            <li>Chess Instructor, Progress With Chess <span class="muted">(2023 – Present)</span></li>
+            <li>Lighting Director, Walsh Jesuit High School <span class="muted">(2017 – 2020)</span></li>
+            <li>Lifeguard, City of South Euclid <span class="muted">(2017 – 2019)</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education + Contact -->
+    <section id="contact" class="section container">
+      <div class="contact card">
+        <div>
+          <h2>Let's talk</h2>
+          <p>I'm graduating in December 2026 and looking for software engineering roles. My inbox is open.</p>
+          <p class="muted">B.S. Computer Science, Mathematics minor · Cleveland State University</p>
+        </div>
+        <div class="hero-actions">
+          <a class="btn primary" href="mailto:w.j.mccartney2002@gmail.com">w.j.mccartney2002@gmail.com</a>
+          <a class="btn" href="https://github.com/WJMcCartney" target="_blank" rel="noopener">github.com/WJMcCartney</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> William McCartney</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

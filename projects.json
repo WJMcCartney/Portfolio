@@ -1,0 +1,24 @@
+[
+  {
+    "title": "SAE Telemetry Dashboard",
+    "slug": "sae-dashboard",
+    "date": "2023-09",
+    "summary": "Remote data acquisition system and live dashboard for the CSU Society of Automotive Engineers. It helps the team catch failure points on the competition vehicle before parts break.",
+    "tags": ["Python", "Data", "Dashboard"],
+    "image": "projects/sae-dashboard/cover.png",
+    "repo": "",
+    "demo": "",
+    "featured": true
+  },
+  {
+    "title": "Portfolio Website",
+    "slug": "portfolio",
+    "date": "2026-10",
+    "summary": "This site. Plain HTML, CSS, and JavaScript hosted on GitHub Pages. Projects load from a single JSON file, so adding new work takes about a minute.",
+    "tags": ["JavaScript", "HTML", "CSS"],
+    "image": "",
+    "repo": "https://github.com/WJMcCartney/WJMcCartney.github.io",
+    "demo": "",
+    "featured": false
+  }
+]

@@ -1,0 +1,9 @@
+# Private: the source resume includes a phone number
+Resume.xlsx
+*.xlsx
+
+.claude/
+node_modules/
+.DS_Store
+Thumbs.db
+desktop.ini
